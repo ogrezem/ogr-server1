@@ -1,0 +1,14 @@
+
+*.properties
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/4.9/taskHistory/taskHistory.lock
+.gradle/4.9/taskHistory/taskHistory.bin
+.gradle/4.9/fileHashes/fileHashes.lock
+.gradle/4.9/fileHashes/fileHashes.bin
+.gradle/4.9/fileContent/fileContent.lock
+.gradle/4.9/fileChanges/last-build.bin
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/workspace.xml
