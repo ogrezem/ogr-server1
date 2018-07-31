@@ -1,0 +1,1 @@
+worker: java -jar out/artifacts/HerokuTest1_jar/HerokuTest1.jar
