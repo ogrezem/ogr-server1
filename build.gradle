@@ -24,7 +24,7 @@ kotlin {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.ogr.ApplicationKt'
+        attributes 'Main-Class': 'main.kotlin.com.ogr.ApplicationKt'
     }
 }
 
