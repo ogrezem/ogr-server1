@@ -1,3 +1,5 @@
+package com.ogr
+
 fun main(args: Array<String>) {
     var i = 1
     while(true) {
