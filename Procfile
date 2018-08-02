@@ -1,1 +1,1 @@
-console: gradle run
+console: java -jar build/libs/HerokuTest1.jar
