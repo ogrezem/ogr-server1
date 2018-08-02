@@ -1,1 +1,1 @@
-console: java -cp build/libs/HerokuTest1.jar:lib/kotlin-runtime.jar
+console: java -jar build/libs/HerokuTest1.jar

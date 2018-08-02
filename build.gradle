@@ -38,6 +38,8 @@ repositories {
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
 
+task run(dependsOn: ['build'])
+
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib"
     compile "org.jetbrains.kotlin:kotlin-reflect"
