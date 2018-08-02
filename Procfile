@@ -1,1 +1,1 @@
-console: gradlew run
+console: gradle run
