@@ -1,1 +1,1 @@
-console: java -jar build/libs/HerokuTest1.jar
+console: java $JAVA_OPTS -jar build/libs/HerokuTest1.jar
