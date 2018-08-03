@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edabebed-8019-4a57-803e-ec991fea1e98" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HerokuTest1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HerokuTest1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HerokuTest1_jar/HerokuTest1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HerokuTest1_jar/HerokuTest1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HerokuTest1/ApplicationKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HerokuTest1/META-INF/HerokuTest1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HerokuTest1/META-INF/HerokuTest1.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HerokuTest1/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HerokuTest1/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/Application.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/ChatServer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/ChatServer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/EquilateralTriangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/EquilateralTriangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/IsoscelesJavaTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/IsoscelesJavaTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ogr/shapes/IsoscelesJavaTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/IsoscelesTriangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/IsoscelesTriangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Shape.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Shape.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Triangle.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/ogr/Application.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -82,26 +67,22 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            <state relative-caret-position="378">
+              <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
+      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="IsoscelesJavaTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ogr/shapes/IsoscelesJavaTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -136,8 +117,11 @@
       <file leaf-file-name="ChatServer.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/ogr/ChatServer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#17#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -382,9 +366,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6132830240012" />
+        <entry key="$PROJECT_DIR$" value="6132831819293" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3989106479" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1515876169" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2371942159" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1662721794" />
       </map>
@@ -608,7 +592,6 @@
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/Application.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Color.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/EquilateralTriangle.kt" />
@@ -616,6 +599,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Triangle.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/Shape.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/shapes/IsoscelesTriangle.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/ogr/ChatServer.kt" />
       </list>
     </option>
@@ -892,6 +876,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#17#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,20 +936,10 @@
     <entry file="file://$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -997,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ogr/shapes/IsoscelesJavaTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1011,14 +988,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/ogr/Application.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/ogr/ChatServer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#17#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
