@@ -1,6 +1,4 @@
-package main.kotlin.com.ogr;
-
-import org.jetbrains.annotations.NotNull;
+package main.kotlin.com.ogr.shapes;
 
 public class IsoscelesJavaTriangle extends Triangle {
     public IsoscelesJavaTriangle(Color color, Double equalSidesLength, Double thirdSideLength) {
