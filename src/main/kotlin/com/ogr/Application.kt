@@ -1,4 +1,4 @@
-package main.kotlin.com.ogr
+package com.ogr
 
 
 

@@ -1,4 +1,6 @@
-package main.kotlin.com.ogr.shapes;
+package com.ogr.shapes;
+
+import com.ogr.shapes.Color;
 
 public class IsoscelesJavaTriangle extends Triangle {
     public IsoscelesJavaTriangle(Color color, Double equalSidesLength, Double thirdSideLength) {

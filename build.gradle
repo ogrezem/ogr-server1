@@ -17,7 +17,7 @@ plugins {
 apply plugin: "kotlin"
 apply plugin: 'application'
 
-mainClassName = "main.kotlin.com.ogr.ApplicationKt"
+mainClassName = "com.ogr.ApplicationKt"
 
 kotlin {
     experimental {
@@ -27,7 +27,7 @@ kotlin {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'main.kotlin.com.ogr.ApplicationKt'
+        attributes 'Main-Class': 'com.ogr.ApplicationKt'
     }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
@@ -40,17 +40,17 @@ task stage(dependsOn: ['build', 'clean', 'run'])
 build.mustRunAfter clean
 
 dependencies {
-    compile {
-        "org.jetbrains.kotlin:kotlin-stdlib"
-        "org.jetbrains.kotlin:kotlin-reflect"
-        "org.jetbrains.kotlin:kotlin-runtime:1.2.51"
-        'org.java-websocket:Java-WebSocket'
+    compile (
+        "org.jetbrains.kotlin:kotlin-stdlib",
+        "org.jetbrains.kotlin:kotlin-reflect",
+        "org.jetbrains.kotlin:kotlin-runtime:1.2.51",
+        'org.java-websocket:Java-WebSocket',
         'org.apache.logging.log4j:log4j-core'
-    }
-    testCompile {
-        "org.jetbrains.kotlin:kotlin-test"
+    )
+    testCompile (
+        "org.jetbrains.kotlin:kotlin-test",
         "org.jetbrains.kotlin:kotlin-test-junit"
-    }
+    )
 }
 
 task wrapper(type: Wrapper) {

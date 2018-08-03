@@ -1,4 +1,6 @@
-package main.kotlin.com.ogr
+package com.ogr
 
-class ChatServer {
+
+
+class ChatServer : WebSocketServer {
 }
