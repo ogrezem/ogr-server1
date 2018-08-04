@@ -9,7 +9,13 @@ class ChatServlet : HttpServlet() {
     var counter = 1
     override fun doPost(req: HttpServletRequest, resp: HttpServletResponse) {
         val requestText = req.getParameter("message")
-        println("Текст запроса: $requestText")
+        println("Текст POST запроса: $requestText")
+        println("Счётчик $counter")
+        resp.writer.print("Otvet dan! Your message: $requestText. Counter: ${counter++}")
+    }
+    override fun doGet(req: HttpServletRequest, resp: HttpServletResponse) {
+        val requestText = req.getParameter("message")
+        println("Текст GET запроса: $requestText")
         println("Счётчик $counter")
         resp.writer.print("Otvet dan! Your message: $requestText. Counter: ${counter++}")
     }
