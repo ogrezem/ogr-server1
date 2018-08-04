@@ -1,1 +1,1 @@
-console: java -jar build/libs/HerokuTest1.jar
+web: java -jar build/libs/HerokuTest1.jar
