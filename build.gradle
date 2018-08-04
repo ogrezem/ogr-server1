@@ -47,7 +47,6 @@ dependencies {
             'javax.servlet:servlet-api:2.5',
             'org.eclipse.jetty:jetty-server:9.4.11.v20180605',
             'org.eclipse.jetty:jetty-servlet:9.4.11.v20180605',
-
     )
     testCompile (
         "org.jetbrains.kotlin:kotlin-test",
