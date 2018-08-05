@@ -13,15 +13,11 @@ class ChatServlet : HttpServlet() {
         println("Счётчик $counter")
         val attributeNames = req.attributeNames
         println("Имена атрибутов: ")
-        if(attributeNames.toList().isEmpty())
-            println("Не было найдено не одного аттрибута")
         while(attributeNames.hasMoreElements() ) {
             println(attributeNames.nextElement())
         }
         val parametersNames = req.attributeNames
         println("Имена параметров: ")
-        if(parametersNames.toList().isEmpty())
-            println("Не было найдено не одного параметра")
         while(parametersNames.hasMoreElements() ) {
             println(parametersNames.nextElement())
         }
