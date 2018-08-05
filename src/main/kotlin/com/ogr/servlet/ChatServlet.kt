@@ -11,15 +11,11 @@ class ChatServlet : HttpServlet() {
         var requestText = req.getParameter("message")
         println("Текст POST запроса: $requestText")
         println("Счётчик $counter")
-        val attributeNames = req.attributeNames
-        println("Имена атрибутов: ")
-        while(attributeNames.hasMoreElements() ) {
-            println(attributeNames.nextElement())
-        }
         val parametersNames = req.parameterNames
-        println("Имена параметров: ")
+        println("Параметры:")
         while(parametersNames.hasMoreElements() ) {
-            println(parametersNames.nextElement())
+            val parameterName = parametersNames.nextElement() as String
+            println("$parameterName равно ${req.getParameter(parameterName)}")
         }
         resp.writer.print("Otvet dan! Your message: $requestText. Counter: ${counter++}")
     }
