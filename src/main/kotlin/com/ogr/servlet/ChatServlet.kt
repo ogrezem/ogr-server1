@@ -8,15 +8,21 @@ import javax.servlet.http.HttpServletResponse
 class ChatServlet : HttpServlet() {
     var counter = 1
     override fun doPost(req: HttpServletRequest, resp: HttpServletResponse) {
-        val requestText = req.getParameter("message")
+        var requestText = req.getParameter("message")
         println("Текст POST запроса: $requestText")
         println("Счётчик $counter")
+        val parameterNames = req.parameterNames
+        println("Имена параметров: ")
+        while(parameterNames.hasMoreElements() ) {
+            println(parameterNames.nextElement())
+        }
         resp.writer.print("Otvet dan! Your message: $requestText. Counter: ${counter++}")
     }
     override fun doGet(req: HttpServletRequest, resp: HttpServletResponse) {
-        val requestText = req.getParameter("message")
+        var requestText = req.getParameter("message")
         println("Текст GET запроса: $requestText")
         println("Счётчик $counter")
         resp.writer.print("Otvet dan! Your message: $requestText. Counter: ${counter++}")
     }
+
 }
