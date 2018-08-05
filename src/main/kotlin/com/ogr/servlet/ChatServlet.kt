@@ -25,4 +25,5 @@ class ChatServlet : HttpServlet() {
         resp.writer.print("Otvet dan! Your message: $requestText. Counter: ${counter++}")
     }
 
+    
 }
