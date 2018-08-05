@@ -16,7 +16,7 @@ class ChatServlet : HttpServlet() {
         while(attributeNames.hasMoreElements() ) {
             println(attributeNames.nextElement())
         }
-        val parametersNames = req.attributeNames
+        val parametersNames = req.parameterNames
         println("Имена параметров: ")
         while(parametersNames.hasMoreElements() ) {
             println(parametersNames.nextElement())
@@ -34,7 +34,7 @@ class ChatServlet : HttpServlet() {
         while(attributeNames.hasMoreElements() ) {
             println(attributeNames.nextElement())
         }
-        val parametersNames = req.attributeNames
+        val parametersNames = req.parameterNames
         println("Имена параметров: ")
         if(parametersNames.toList().isEmpty())
             println("Не было найдено не одного параметра")
