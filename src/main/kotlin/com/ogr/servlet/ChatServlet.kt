@@ -9,6 +9,7 @@ class ChatServlet : HttpServlet() {
     var counter = 1
     override fun doPost(req: HttpServletRequest, resp: HttpServletResponse) {
         var requestText = req.getParameter("message")
+        println("Номер сессии: ${req.session.id}")
         println("Текст POST запроса: $requestText")
         println("Счётчик $counter")
         val parametersNames = req.parameterNames
